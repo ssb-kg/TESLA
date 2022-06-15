@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------------
+  *  last date: 2017.11.03
+ * ------------------------------------------------------------------ */
+
+
+/* search result */
+.section-search .area-search {padding:40px 0;text-align:center;background-color:#f7f7f7}
+.section-search .area-search input:-webkit-autofill{-webkit-box-shadow: 0 0 0 1000px #fff inset;-webkit-text-fill-color: #000!important;}
+.section-search .area-search .btn-base {width:200px;margin-left:16px;padding:0}
+.section-search .area-result {width:964px;margin:0 auto;padding-bottom:80px}
+.section-search .area-result .box-result {padding-top:80px}
+.section-search .area-result .box-result .tit-search {display:block;position:relative;height:21px;padding-bottom:16px;border-bottom:1px solid #b6b6b6;font:30px/27px 'GenesisSansHead-Light';color:#000}
+.section-search .area-result .box-result .tit-search em {font-style:normal;color:#a36b4f}
+.section-search .area-result .box-result .tit-search a {position:absolute;bottom:15px;right:0;height:7px;font-size:10px;color:#a36b4f;text-decoration:underline;line-height:7px}
+.section-search .area-result .box-result .tab-search{height: 190px; overflow: hidden;}
+.section-search .area-result .box-result .tab-search.open{height:auto;}
+.section-search .area-result .box-result .tab-search li {float:left;width:170px;margin:30px 0 0 28px}
+.section-search .area-result .box-result .tab-search li:nth-child(5n-4) {margin-left:0}
+.section-search .area-result .box-result .tab-search li a {display:block;width:170px;height:150px;border:1px solid #f7f7f7;background-color:#f7f7f7;text-align:center;box-sizing:border-box; transition: border 0.8s;}
+.section-search .area-result .box-result .tab-search li a:hover {border-color:#a36b4f; transition: border 0.4s;}
+.section-search .area-result .box-result .tab-search li .img {display:block;height:63px;padding-top:43px}
+.section-search .area-result .box-result .tab-search li .txt {display:table;width:100%;height:36px}
+.section-search .area-result .box-result .tab-search li .txt span {display:table-cell;color:#888;line-height:18px;vertical-align:middle;text-align:center}
+.section-search .area-result .box-result .list-media {margin-top:15px}
+.section-search .area-result .box-result .list-media li {float:left;margin:15px 0 0 15px; position:relative}
+.section-search .area-result .box-result .list-media li:nth-child(4n-3) {margin-left:0}
+.section-search .area-result .box-result .list-media li:nth-child(4n-4) {margin-left:14px}
+.section-search .area-result .box-result .list-media li a {display: inline-block; width:230px; height:170px; overflow: hidden}
+.section-search .area-result .box-result .list-media .btn_sea_play_bu {position: absolute; top:0; left: 0}
+.section-search .area-result .box-result .list-keyword {padding-bottom:50px}
+.section-search .area-result .box-result .list-keyword li {margin-top:30px}
+.section-search .area-result .box-result .list-keyword a {display:block}
+.section-search .area-result .box-result .list-keyword .img {float:left}
+.section-search .area-result .box-result .list-keyword dl {float:left;width:781px;margin-left:13px}
+.section-search .area-result .box-result .list-keyword dt {display:block;height:13px;font-size:18px;line-height:18px}
+.section-search .area-result .box-result .list-keyword dd {display:block;font-size:14px;color:#888;line-height:24px}
+.section-search .area-result .box-result .list-keyword dt + dd {margin-top:13px;line-height:22px;color:#000}
+.section-search .area-result .box-result p {margin-top:27px;font-size:18px;line-height:24px;color:#888}
+
+.section-search .area-result .box-result.type-gallery {position:relative;}
+.section-search .area-result .box-result .more {position:absolute;top:93px;right:0;height:7px;font:12px 'GenesisSansHead-Light','wFontKrUL';color:#888;text-decoration:underline;line-height:7px}
+
+
+/* search exception */
+.section-search .area-result .box-result .search-recmmend {color:#888; font-size:18px; display:block; margin-top:26px; margin-bottom:20px}
+.section-search .area-result .box-result .search-recmmend-li {line-height:30px; font-size:18px;} /* color:#a36b4f; text-decoration: underline; */

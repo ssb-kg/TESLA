@@ -1,0 +1,378 @@
+/* ------------------------------------------------------------------
+ *  last update: 2017.11.03 - v1.0
+ * ------------------------------------------------------------------ */
+
+/* ! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/
+* By Designfever.com has been Add.
+* update : 2016/03/16
+*/
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   =====================================W===================================== */
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* px to % conversions
+	-------------------
+	px	|	%
+	-------------------
+	 8  |   50.0
+	 9	|	56.3
+	10	|	62.5
+	11	|	68.8
+	12	|	75.0
+	13	|	81.3
+	14	|	87.5
+	15	|	93.8
+	16	|	100
+	17	|	106.3
+	18	|	112.5
+	19	|	118.8
+	20	|	125.5
+	21	|	131.3
+	22	|	137.5
+	23	|	143.8
+	24	|	150.0
+*/
+
+html, body{height:100%;}
+body {
+    font: normal 12px/1.4 'GenesisSansText-Regular', 'wFontKrR', 'Malgun Gothic', AppleGothicNeoSD, 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', Dotum, 돋움, 굴림, arial, sans-serif;
+    color:#000;
+    /*letter-spacing:0.4px; word-spacing: 1.5px;*/
+    -ms-word-wrap: break-word; word-wrap: break-word;
+}
+body, dl, ul, ol, li, dt, dd, blockquote, p, h1, h2, h3, h4, h5, h6 {padding:0; margin:0;}
+h1, h2, h3, h4, h5, h6 {line-height: 1; margin: 0; font-weight:normal;}
+li{list-style: none;}
+table, th, td{}
+caption, legend {height:0; width:0; font-size:0; text-indent:-9999px; }
+pre, xmp, plaintext, listing, samp, kbd, code, figure, figcaption{margin:0}
+iframe{border:none;}
+img{vertical-align: top}
+
+a:link, a:visited, a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#888 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color:#888 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color:#888 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color:#888 !important;
+}
+
+/**, *:before, *:after {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}*/
+
+input[type="radio"], input[type="checkbox"]{position:relative; left:1px; top:1px; width: 13px; height:13px;margin:0; padding:0; }
+input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+    height:48px; padding:0 18px;  border:1px solid #c4c6ca;
+    font-size:16px; line-height: 48px;
+    font-family:'GenesisSansText-Regular','wFontKrR';
+    vertical-align: baseline; outline:none;
+    box-sizing: border-box;
+    color:#000
+}
+input[type="password"]{font-family:'Malgun Gothic', AppleGothicNeoSD, 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', Dotum, 돋움, 굴림, arial, sans-serif;}
+input[type="text"]:disabled,input[type="password"]:disabled,input[type="search"]:disabled, input[type="email"]:disabled, input[type="tel"]:disabled, input[type="number"]:disabled, select:disabled, textarea:disabled {background-color:#fff;color:#888}
+button:focus{outline:none;}
+input[type="text"]:focus,input[type="password"]:focus,input[type="search"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="number"]:focus, select:focus, textarea:focus{border:1px solid #000;}
+select{border:1px solid #bbb}
+button{border:0; padding:0; overflow: hidden; background: none;}
+textarea{padding:18px; border:1px solid #c4c6ca; font:14px/1.2 GenesisSansHead-Light; resize:none; box-sizing: border-box;}
+textarea::-webkit-input-placeholder{color:#888;}
+input[type="text"].wrong-value, input[type="tel"].wrong-value, input[type="email"].wrong-value,
+input[type="number"].wrong-value, textarea.wrong-value{color:#c21a1a;}
+input[disabled ="disabled"]{ background: #fff;}
+input[type="text"]::-ms-clear{display: none;}
+
+/* scrollbar style 정의 */
+/* IE scrollbar */
+/*
+html {
+	scrollbar-3dLight-Color: #efefef;
+    scrollbar-arrow-color: #ddd;
+    scrollbar-base-color: #efefef;
+    scrollbar-Face-Color: #ddd;
+    scrollbar-Track-Color: #efefef;
+    scrollbar-DarkShadow-Color: #ddd;
+    scrollbar-Highlight-Color: #ddd;
+    scrollbar-Shadow-Color: #ddd;
+}
+*/
+
+/* webkit scrollbar */
+/*
+::-webkit-scrollbar {width: 8px; height: 8px; border: 3px solid #fff; }
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {display: block; height: 10px; background: #efefef}
+::-webkit-scrollbar-track {background: #efefef; -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.2)}
+::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: rgba(0,0,0,.2); -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.1)}
+*/
+
+/* ==========================================================================
+   Skip Navi & Browser Upgrade Prompt
+   ========================================================================== */
+
+/* skip Navigation */
+#skip-navi	 {position:absolute;top:0;left:0;width:100%;z-index:600; }
+#skip-navi a			{position:absolute;display:block;top:-9999px; }
+#skip-navi a span		{display:block;padding:10px 0; background:#fafafa; border: 2px solid #666; box-sizing: border-box; color:#000; font-size: 16px; text-align:center; }
+#skip-navi a:hover, #skip-navi a:active, #skip-navi a:focus {display:inline-block;top:0;width:100%; }
+
+/* browserUpgrage */
+.browser-upgrade{position: fixed; left:0; top:0; width:100%; z-index:10000; background: #fafafa; border-bottom:2px solid #999; padding:10px 0; margin:0; text-align: center; font-size: 14px; color:#595959;}
+.browser-upgrade a{font-size: 18px; color:#000; }
+.browser-upgrade a:hover{color:#999; }
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/* Image replacement */
+.acc-tag,
+.blind
+{
+    font-size: 0 !important;
+    position: absolute !important;
+    left: -9999em !important;
+    top: -9999em !important;
+    text-indent: -9999px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+}
+
+/* hide & show */
+.hide{display:none !important;}
+.show{display:block !important;}
+
+.visible-hidden { visibility: hidden !important;}
+
+/* align */
+.float_l {float: left;}
+.float_r {float: right;}
+
+.talign-l{text-align: left;}
+.talign-c{text-align: center;}
+.talign-r{text-align: right;}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    @page {
+        /*size:21cm 29.7cm;*/
+        /*size: landscape; 기본 출력방향 */
+
+    }
+
+
+}

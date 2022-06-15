@@ -1,0 +1,64 @@
+/* ------------------------------------------------------------------
+  *  last date: 2018.06.01
+ * ------------------------------------------------------------------ */
+
+
+@font-face {
+    font-family: 'wFontKrUL';
+    src: url('../fonts/GenesisSansHeadKROTFLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/GenesisSansHeadKROTFLight.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    local(※), url('../fonts/GenesisSansHeadKROTFLight.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/GenesisSansHeadKROTFLight.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GenesisSansHeadKROTFLight.svg#GenesisSansHeadKROTFLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'wFontKrR';
+    src: url('../fonts/GenesisSansTextKROTFRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/GenesisSansTextKROTFRegular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    local(※), url('../fonts/GenesisSansTextKROTFRegular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/GenesisSansTextKROTFRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/GenesisSansTextKROTFRegular.svg#GenesisSansTextKROTFRegular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'GenesisSansHead-Light';
+    src: url('../fonts/GenesisSansHeadKROTFLight.eot');
+    src: url('../fonts/GenesisSansHeadKROTFLight.eot#iefix') format('embedded-opentype'),
+    url('../fonts/GenesisSansHeadKROTFLight.woff') format('woff'),
+    url('../fonts/GenesisSansHeadKROTFLight.ttf') format('truetype'),
+    url('../fonts/GenesisSansHeadKROTFLight.svg#GenesisSansHeadKROTFLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'GenesisSansText-Regular';
+    src: url('../fonts/GenesisSansTextKROTFRegular.eot');
+    src: url('../fonts/GenesisSansTextKROTFRegular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/GenesisSansTextKROTFRegular.woff') format('woff'),
+    url('../fonts/GenesisSansTextKROTFRegular.ttf') format('truetype'),
+    url('../fonts/GenesisSansTextKROTFRegular.svg#GenesisSansTextKROTFRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GenesisSansHead-Regular';
+    src: url('../fonts/GenesisSansHead-Regular.eot');
+    src: url('../fonts/GenesisSansHead-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/GenesisSansHead-Regular.woff') format('woff'),
+    url('../fonts/GenesisSansHead-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

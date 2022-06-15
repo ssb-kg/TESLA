@@ -1,0 +1,198 @@
+/* ------------------------------------------------------------------
+  * last update: 2019.05.16 - v1.0
+ * ------------------------------------------------------------------ */
+
+/* concept 공통 */
+.concept section .txt-holder {position: absolute; z-index: 1;}
+.concept section {position: relative; margin-top: 0!important; overflow: hidden;}
+
+.concept .kv-area {}
+.concept .kv-area .main-tit {font: 60px/1 'GenesisSansHead-Light'; color: #a36b4f;}
+.concept .kv-area span {display: block}
+.concept .kv-area .txt-holder {position: absolute; bottom: 0; left: 4.6875%; margin-bottom: 107px; width: 90.625%; z-index: 4}
+.concept .kv-area .txt-holder b {display: inline-block; margin-top: 12px; font-size: 24px; line-height: 28px; font-weight: normal}
+.concept .kv-area .txt-holder p {margin-top: 9px; font-size: 18px; line-height: 26px}
+.concept .kv-area .txt-holder b span,
+.concept .kv-area .txt-holder p span{display: block; color: #fff;}
+.concept .kv-area .bg-holder {position: relative; background: #000;}
+.concept .kv-area .btns {margin-top: 35px; width: 100%; line-height: 58px}
+.concept .kv-area a.gbtn.video {right: 0; margin-bottom: 0}
+.concept .kv-area a.gbtn.talign-r {position: absolute; right: 0; top: 0; width: 175px}
+.concept .kv-area video {position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2;}
+.concept .kv-area .content .line {z-index: 3}
+.concept .btn-scroll {z-index: 4}
+.concept.landing .kv-area .txt-holder p {margin-top: 0}
+
+.concept .video-con {position: relative; overflow: hidden}
+.concept .video-con .video-content {position: relative; margin: 0 auto; width: 100%; max-width: 1920px; height: 750px;}
+.concept .video-con .video-content .txt-holder {bottom: 83px; left: 4.6875%}
+.concept .video-con .video-content .txt-holder p {font-size: 18px; line-height: 22px; color: #fff}
+.concept .video-con .video-content .txt-holder p span {display: block}
+.concept .video-con .video-content .bg-holder img {position: relative; left: 50%; top: 0; margin-left: -960px}
+.concept .video-con .btn-youtube-play {display: inline-block; position: absolute; left: 50%; top: 50%; margin: -42px 0 0 -36px}
+.concept .video-con .is-video{display: inline-block; position: absolute; left: 50%; top: 50%; margin: -42px 0 0 -36px}
+
+.concept .video-con .is-video .on-over {position: absolute; top:0; left: 0; width: 100%; opacity: 0; transition: opacity 0.3s}
+.concept .video-con .is-video img {transition: opacity 0.5s}
+.concept .video-con .is-video:hover img {opacity:0}
+.btn-youtube-play:hover .on-over{opacity:1}
+
+/* Features short type */
+.type-short {overflow: hidden}
+.type-short .type-content {position: relative; margin: 0 auto; width: 100%; max-width: 1920px; height: 400px;}
+.type-short .type-content .txt-holder {position: absolute; bottom: 100px; left: 4.6875%;}
+.type-short .type-content .txt-holder p {margin-top: 14px; font-size: 18px; line-height: 26px; color: #fff;}
+.type-short .type-content .txt-holder p span {display: block;}
+.type-short .type-content .bg-holder img {position: relative; left: 50%; margin-left: -960px; margin-top: -100px;}
+
+/* fullsize container */
+.concept .type-fullsize {position: relative; overflow: hidden}
+.concept .type-fullsize .bg-holder {position: relative}
+.concept .type-fullsize .txt-holder {position: absolute; bottom: 85px; left: 4.6875%;}
+.concept .type-fullsize .txt-holder .type-tit {font: 45px/1 "GenesisSansHead-Light"; color: #a36b4f}
+.concept .type-fullsize .txt-holder p {margin-top: 18px; font-size: 18px; line-height: 26px; color: #fff}
+.concept .type-fullsize .txt-holder p span {display: block}
+
+/* Features 2 columns type */
+.concept .type-para-2col.bg-gray {background: #f0f0f0}
+.concept .type-para-2col .type-content {margin: 0 auto; padding: 10px 30px 60px; width: 1024px; box-sizing: border-box; font-size: 0;}
+.concept .type-para-2col .type-content .column {display: inline-block; width: 450px; margin-top: 50px; margin-left: 62px; vertical-align: top;}
+.concept .type-para-2col .type-content .column.first {margin-left: 0;}
+.concept .type-para-2col .type-content .column b {display: block; padding-bottom: 5px; font: 12px/1 'GenesisSansText-RegularF'; text-align: right; border-bottom: 1px solid #acacac; color: #666;}
+.concept .type-para-2col .type-content .column p {margin-top: 22px; font-size: 16px; line-height: 24px; text-align: justify; word-break: break-all;}
+.concept .type-para-2col .type-content .column .img-area {margin-top: 30px; width:100%; height:250px; overflow: hidden;}
+
+/* text+link */
+.concept .sec-txt-wrap {margin: 0 auto; max-width: 1920px; background: #191919;}
+.concept .sec-txt-wrap .txt-holder {position: static!important; text-align: center;}
+.concept .sec-txt-wrap .txt-holder .inner-txt {display: inline-block; padding: 53px 0; font-size: 0; text-align: left;}
+.concept .sec-txt-wrap .txt-holder .inner-txt .type-tit,
+.concept .sec-txt-wrap .txt-holder .inner-txt .btns{display: inline-block; vertical-align: top;}
+.concept .sec-txt-wrap .txt-holder .inner-txt .btns.ty02 a.gbtn{width:auto; margin-left:40px;}
+.concept .sec-txt-wrap .txt-holder .inner-txt .type-tit {display: inline-block; padding: 0 51px 0 0; font:24px/58px 'GenesisSansHead-Light'; color: #fff;}
+.concept .sec-txt-wrap .txt-holder .btns a.gbtn {width:168px; margin-left: 20px;}
+.concept .sec-txt-wrap .txt-holder .btns a.gbtn:first-child {margin-left: 0;}
+/* text+link reverse*/
+.sec-txt-wrap.reverse {background: #fff}
+.sec-txt-wrap.reverse .txt-holder .inner-txt .type-tit {color: #000}
+
+.type-normal {overflow: hidden;}
+
+/* concept-landing */
+.concept.landing .vision .type-hor-twotone {position: relative; z-index: 2; margin: 0 auto; max-width: 1920px;}
+.concept.landing .vision .content {position: relative}
+.concept.landing .vision .content:after {display: block; content: ""; position: absolute; bottom: 0; width: 100%; height: 302px; background: #f7f7f7}
+.concept.landing .vision .type-hor-twotone .bg-holder img {display:block; position: relative; top: 0; left: 50%; margin-left: -960px}
+/* 180220 / syyang 수정 S */
+.concept.landing .vision .type-hor-twotone .txt-holder {bottom:50px; width: 100%}
+.concept.landing .vision .type-hor-twotone .txt-holder .inner-txt {margin: 0 auto; width: 964px; font-size: 0}
+.concept.landing .vision .type-hor-twotone .txt-holder .type-tit {display:block; width:100%; font: 32px/37px "GenesisSansHead-Light"; color: #a36b4f; text-align:center; margin-bottom:15px;}
+.concept.landing .vision .type-hor-twotone .txt-holder .type-tit span {display: block}
+.concept.landing .vision .type-hor-twotone .txt-holder p {display:block; width:100% !important; font-size: 16px; line-height: 24px; text-align:center;}
+.concept.landing .vision .type-hor-twotone .txt-holder p span {display: block}
+/* 180220 / syyang 수정 E */
+.concept.landing .select-concept {}
+.concept.landing .select-concept .content .box-wrap {margin: 0 auto; max-width: 1920px; font-size: 0}
+.concept.landing .select-concept .content .box-wrap .concept {display: inline-block; position: relative; width: 50%}
+.concept-2017.concept.landing .select-concept .content .box-wrap .concept{width:33.333%;}
+.concept-2017.concept.landing .select-concept .content .box-wrap .concept-1,
+.concept-2017.concept.landing .select-concept .content .box-wrap .concept-2 {width:50%;}
+
+.concept.landing .select-concept .content .box-wrap .concept a {display: block;}
+.concept.landing .select-concept .content .box-wrap .concept a:focus:before {content:"";position: absolute;left:0;top:0;width: 100%;height: 100%;border:2px solid #a36b4f;box-sizing:border-box;z-index:1;}
+.concept.landing .select-concept .content .box-wrap .concept .tit {font: 45px/1 "GenesisSansHead-Light"; color: #a36b4f}
+.concept.landing .select-concept .content .box-wrap .concept .tit span,
+.concept.landing .select-concept .content .box-wrap .concept p span {display: block}
+.concept.landing .select-concept .content .box-wrap .concept p {margin-top: 17px; font-size: 16px; line-height: 26px}
+.concept.landing .select-concept .content .box-wrap .concept p span {color: #fff}
+.concept.landing .select-concept .content .box-wrap .concept .gbtn {margin-top: 16px}
+.concept.landing .select-concept .content .box-wrap .concept .txt-holder {top: 85px}
+.concept.landing .select-concept .content .box-wrap [class*="concept-"] .txt-holder {left: 8.7%}
+.concept.landing .select-concept .content .box-wrap .concept-1 .txt-holder {}
+.concept.landing .select-concept .content .box-wrap .concept-2 .txt-holder {}
+.concept.landing .select-concept .content .box-wrap .concept-3 .txt-holder {}
+.concept.landing .select-concept .content .box-wrap .concept-4 .txt-holder {}
+.concept.landing .select-concept .content .box-wrap .concept-5 .txt-holder {}
+
+.concept.landing .select-concept .content .box-wrap .concept .bg-holder {position: relative; height:470px; overflow: hidden; background: #000;}
+.concept.landing .select-concept .content .box-wrap [class*="concept-"] .bg-holder img {position: absolute; left: -40%; opacity: 0.7; transition: 1s all;}
+.concept.landing .select-concept .content .box-wrap .concept-1 .bg-holder img {left:0;}
+.concept.landing .select-concept .content .box-wrap .concept-2 .bg-holder img {left:0;}
+.concept.landing .select-concept .content .box-wrap .concept-3 .bg-holder img {}
+.concept.landing .select-concept .content .box-wrap .concept-4 .bg-holder img {}
+.concept.landing .select-concept .content .box-wrap .concept-5 .bg-holder img {}
+
+
+.concept.landing .select-concept .content .box-wrap .concept:hover .bg-holder img,
+.concept.landing .select-concept .content .box-wrap .concept a:focus .bg-holder img{transform: scale(1.03, 1.03); opacity: 1; transition: 0.4s all;}
+
+.concept.landing .select-concept .content .box-wrap .concept a .gbtn {display: inline-block; color: #fff; vertical-align: top;}
+.concept.landing .select-concept .content .box-wrap .concept a .gbtn span{display:block; vertical-align: top;}
+.concept.landing .select-concept .content .box-wrap .concept a .gbtn span.atxt{width:100%; padding: 17px 0 16px; box-sizing: border-box; font-size: 20px; line-height: 1; transition: color 0.4s;}
+.concept.landing .select-concept .content .box-wrap .concept a .gbtn span.sline{position:relative; width:100%; height:1px; background: #fff;  }
+.concept.landing .select-concept .content .box-wrap .concept a .gbtn span.sline .sline-inner{ display:block; position:absolute; left:0; bottom:0; width:0; height:1px; background: #a36b4f; transition: width 0.8s;}
+
+.concept.landing .select-concept .content .box-wrap .concept:hover a .gbtn span.atxt,
+.concept.landing .select-concept .content .box-wrap .concept a:focus .gbtn span.atxt{color:#a36b4f;}
+
+.concept.landing .select-concept .content .box-wrap .concept:hover a .gbtn span.sline .sline-inner,
+.concept.landing .select-concept .content .box-wrap .concept a:focus .gbtn span.sline .sline-inner {width:100%; transition: width 0.4s;}
+
+/* sign-up 팝업 */
+.cl-signup-popup{width:410px; margin-left:-205px; margin-top:-290px;}
+.cl-signup-popup .top-msg{padding-bottom:18px; border-bottom:1px solid #e5e5e5; font-size:14px; color:#666;}
+.cl-signup-popup .form-wrap{padding:40px 0 10px; }
+.cl-signup-popup label{display:inline-block; height:48px; padding-bottom:20px; width:80px; color:#000; line-height: 48px;}
+.cl-signup-popup input{margin-bottom:20px; width:227px; }
+.cl-signup-popup .inp-wrap{position: relative;}
+.cl-signup-popup .inp-wrap input.wrong-value{margin-bottom:40px; }
+.cl-signup-popup .btn-wrap{text-align:center;}
+.cl-signup-popup .btn-wrap .btn-base{width:195px;}
+
+.popup-signup {width:410px; margin-left:-205px; margin-top:-226px;}
+.popup-signup .popup-inner {padding:0}
+.popup-signup .pop-inner-wrap div {display:table-cell;vertical-align:middle}
+.popup-signup .pop-inner-wrap .img {display:inline-block;vertical-align:middle}
+.popup-signup .pop-inner-wrap .img img {width:100%;vertical-align:middle}
+.popup-signup .pop-inner-wrap p {display:block;text-align:center;margin-top:20px;font-size:16px;line-height:19px;color:#888}
+
+/* 170413 / 버튼 간격 추가 */
+.concept .btns a.gbtn{margin-left:20px;}
+.concept .btns a.gbtn:first-child{margin-left:0;}
+
+/* vision G 공통 */
+.concept.vision-g .type-normal .type-content .txt-holder {bottom:117px;}
+.concept.vision-g .type-para-2col .type-content {padding:12px 30px 84px;}
+.concept.vision-g .type-para-2col .type-content .column .img-area {margin-top:47px; width:100%; height:250px; overflow:hidden}
+.concept.vision-g .type-para-2col .type-content .column p {margin-top:50px;}
+.concept.vision-g .type-gallery .sec-txt-wrap .txt-holder .inner-txt .type-tit {padding: 0 51px 0 0;}
+.concept.vision-g .sec-txt-wrap .txt-holder .inner-txt .type-tit {padding: 0 36px 0 0;}
+/* vision G */
+.concept.vision-g .interior .sec-txt-wrap .txt-holder .btns a.gbtn {width:222px;}
+.concept.vision-g .interior .sec-txt-wrap .txt-holder .btns a.gbtn span {white-space: nowrap;}
+.concept.vision-g .type-gallery .sec-txt-wrap .txt-holder .btns a.gbtn {width:170px;}
+
+/*HMC only style*/
+.cl-signup-popup .inp-wrap .alert-holder{position: absolute; left:82px; bottom:-17px; margin-left: 0;}
+.popup-signup .pop-inner-wrap {display:table;margin-bottom:30px;height:190px;text-align:center;width:100%}
+
+/* 20190516 추가 */
+/* Motorshow Main */
+.motorshow.concept.landing .vision .type-hor-twotone .bg-holder img {width:100%; left:0; margin-left:0;}
+.motorshow.concept.landing .select-concept .content .box-wrap .concept {width:33.333%;}
+.motorshow.concept.landing .select-concept .content .box-wrap .concept .txt-holder {top:40px;}
+.motorshow.concept.landing .select-concept .content .box-wrap .concept .tit {font-size:40px;}
+.motorshow.landing .select-concept .content .box-wrap .concept-3 .bg-holder img {left:0;}
+/* // 20190516 추가 */
+
+
+@media only screen and (max-width:1280px) {
+
+}
+@media only screen and (max-width:1600px) {
+
+}
+
+@media only screen and (max-width:1920px) {
+
+}
